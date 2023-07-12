@@ -1,0 +1,140 @@
+body {
+  background-image: url(./Assets/bg-mobile.svg);
+  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.logo_container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.logo_image {
+  width: 15rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ilustration_container {
+  padding: 1rem;
+}
+.ilustration_image {
+  width: 100%;
+}
+.comunity_container {
+  text-align: center;
+}
+.comunity_title {
+  color: white;
+  font-size: 1.6rem;
+  font-family: system-ui;
+  font-weight: 600;
+  line-height: 2.3rem;
+  letter-spacing: 0.1rem;
+}
+.comunity_text {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: system-ui;
+}
+.comunity_button {
+  width: 12rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  color: blueviolet;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.footer_icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 1rem;
+}
+@media only screen and (min-width: 991px) {
+  body {
+    margin: 0;
+    background-image: url(./Assets/bg-desktop.svg);
+    height: 100vh;
+    padding: 0rem 4rem 0rem 4rem;
+  }
+
+  .logo_container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .logo_image {
+    width: auto;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  .ilustration_container {
+    width: 60%;
+  }
+
+  .ilustration_image {
+    width: 100%;
+  }
+
+  .comunity_container {
+    width: 40%;
+    text-align: left;
+    padding: 2rem;
+  }
+
+  .comunity_title {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+  }
+
+  .footer_icons {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  footer {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ilustration_container {
+    width: 50%;
+  }
+  .comunity_container {
+    width: 50%;
+    text-align: left;
+    padding: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .comunity_title {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+  }
+  .comunity_container {
+    padding: 3rem;
+  }
+}
